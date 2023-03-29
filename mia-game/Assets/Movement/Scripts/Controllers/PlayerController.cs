@@ -20,4 +20,9 @@ public class PlayerController : InputController
     {
         return Input.GetButton("Jump");
     }
+
+    public override bool RetrtieveRepelInput()
+    {
+        return Input.GetButton("Fire3");
+    }
 }

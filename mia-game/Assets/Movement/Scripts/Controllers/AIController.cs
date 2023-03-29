@@ -20,4 +20,9 @@ public class AIController : InputController
     {
         return false;
     }
+
+    public override bool RetrtieveRepelInput()
+    {
+        return false;
+    }
 }

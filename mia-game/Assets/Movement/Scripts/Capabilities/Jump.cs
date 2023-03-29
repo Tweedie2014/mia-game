@@ -40,6 +40,7 @@ public class Jump : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         onGround = ground.GetOnGround();
         velocity = body.velocity;
 
