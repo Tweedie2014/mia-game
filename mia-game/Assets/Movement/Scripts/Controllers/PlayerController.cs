@@ -15,4 +15,9 @@ public class PlayerController : InputController
     {
         return Input.GetAxisRaw("Horizontal");
     }
+
+    public override bool RetrieveJumpHoldInput()
+    {
+        return Input.GetButton("Jump");
+    }
 }
